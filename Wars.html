@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wars and Tensions Around the World</title>
+	
+    
+    
+    <style>body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 249, 249, 0.837);
+}
+
+{
+  box-sizing: border-box; ;}
+
+ #menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: white; 
+    width: fit-content; 
+}
+
+#menu li {
+    display: inline; 
+}
+
+#menu li a {
+    display: inline-block; 
+    color: black; 
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px
+}
+
+#menu li a:hover {
+    background-color: lightblue; 
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 1rem 0;
+}
+</style>
+</head>
+<body>
+
+<script>
+const title = document.querySelector('h1');
+const blinkInterval = 1000;
+
+function blink() {
+  title.style.opacity = title.style.opacity === '0' ? '1' : '0';
+  setTimeout(blink, blinkInterval);
+}
+
+blink();
+</script>
+
+<ul id="menu">
+        <li><a class="active" href="index.html">News</a></li>
+        <li><a  href="about.html">About Us</a></li>
+        <li><a  href="Contact.html">Sport News</a></li>
+        <li><a  href="earth.html">Business News</a></li>
+		<li><a  href="Wars.html">Wars and Tensions around the world</a></li>
+
+            </ul>
+
+    <h1>Wars and Tensions Around the World</h1>
+    <p>This page provides a brief overview of some of the ongoing conflicts and tensions around the world. It is important to note that this is not an exhaustive list, and the situations in these regions are complex and constantly evolving.</p>
+    <section id="conflicts">
+        <h2>Bigest conflicts and wars on the world</h2>
+        <ul>
+            <li>The war between Ukraine and Russia </li>
+			<a href="https://www.bbc.com/news/articles/cv22jek87dno">By touching this link you can see more about this news</a>
+			<img src="Images1/download.jpg" alt="Ukraine and Russia War">
+            <li>War between Hamas and Israel</li>
+			<a href="https://www.bbc.com/news/articles/crggq0jygq6o">By touching this link you can see more about this news</a>
+			<img src="Images1/download.jpg" alt="Hamas and Israel war">
+        </ul>
+    </section>
+    <section id="tensions">
+        <h2>Tensions</h2>
+        <ul>
+            <li>Lebanese "War" to US ambassy</li>
+			<a href="https://www.bbc.com/news/articles/c2xxee0jee1o">By touching this link you can see more about this news</a>
+			<img src="Images1/download3download3.jpg" alt="aLebanese attack on US ambassy">
+            <li>Buenos Aires rocked by clashes over Milei reforms</li>
+			<a href="https://www.bbc.com/news/articles/c255zdlde92o">By touching this link you can see more about this news</a>
+			<img src="Images1/download4.jpg" alt="Buenos Aires tensions">
+            <li>Russia's speech about Europe</li>
+			<a href="https://www.bbc.com/news/articles/cn00e422yr2o">By touching this link you can see more about this news</a>
+			<img src="Images1/download5.jpg" alt="Russia being confident abouta a defenceless Europe">
+        </ul>
+    </section>
+    <p>For more information on these conflicts and tensions, please refer to reputable news sources.</p>
+    <script src="script.js"></script>
+</body>
+</html>
